@@ -9,23 +9,57 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief implementing a few functions
  *
- * <Add Extended Description Here>
+ * seven functions are implemented here to work on an unsigned char array, all
+ * will get the pointer to the array and its size as an input and return the
+ * needed value or print.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Arash Amini
+ * @date 28-10-2023
  *
  */
-
-
 
 #include <stdio.h>
 #include "stats.h"
 
 /* Size of the Data Set */
 #define SIZE (40)
+
+//Given an array of data and a length, sorts the array from largest to smallest
+unsigned char *sort_array(unsigned char *a, int size){
+
+}
+
+
+//Given an array of data and a length, returns the median value
+double find_median(unsigned char *a, int size){
+
+}
+//Given an array of data and a length, returns the mean
+double find_mean(unsigned char *a, int size){
+
+}
+//Given an array of data and a length, returns the maximum
+unsigned char find_minimum(unsigned char *a, int size){
+
+}
+//Given an array of data and a length, returns the minimum
+unsigned char find_maximum(unsigned char *a, int size){
+
+}
+
+//A function that prints the statistics of an array including minimum, maximum, mean, and median
+void print_statistics(unsigned char *a, int size){ 
+
+}
+//Given an array of data and a length, prints the array to the screen
+void print_array( unsigned char *a, int size) {
+
+
+}
+
 
 void main() {
 

@@ -8,14 +8,14 @@
  * misuse of this material. 
  *
  *****************************************************************************/
-/**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+**
+ * @file stats.h 
+ * @brief declaration of functions
  *
- * <Add Extended Description Here>
+ * declaring functions which are working on an input unsigned char array
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Arash Amini>
+ * @date 28-10-2023
  *
  */
 #ifndef __STATS_H__
